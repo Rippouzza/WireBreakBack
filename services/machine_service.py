@@ -1,5 +1,6 @@
 from sqlalchemy.orm import Session
 from models.machine import Machine
+from models.machine_type_model import MachineType
 
 def get_all_machines(db: Session):
     """Retrieve all machines from the database."""
